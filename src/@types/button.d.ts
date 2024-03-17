@@ -3,4 +3,5 @@ interface buttonProp {
 	icon: IconDefinition;
 	text?: string;
 	variation?: 'primary' | 'black' | 'secondary';
+	download?: boolean;
 }

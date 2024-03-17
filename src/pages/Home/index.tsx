@@ -51,7 +51,7 @@ function Home() {
 					<p className="text-black md:text-2xl">
 						E estou muito feliz se saber de sua visita <FontAwesomeIcon icon={faSmile} />
 					</p>
-					<Button href="" icon={faDownload} text="Baixar currículo" variation="black" />
+					<Button href="/CV_PAULO_ALMEIDA.pdf" icon={faDownload} text="Baixar currículo" variation="black" download/>
 				</div>
 			</main>
 
