@@ -1,30 +1,57 @@
-# React + TypeScript + Vite
+#  👨‍💻 Meu Portifólio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este é o repositório do meu portifólio pessoal, que pode ser acessado clicando neste link: https://paulohenrique.vercel.app
 
-Currently, two official plugins are available:
+## 👾 Stack
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+![Stack](https://img.shields.io/badge/React-blue?logo=React&logoColor=white&style=for-the-badge) ![Stack](https://img.shields.io/badge/Typescript-blue?logo=typescript&logoColor=white&style=for-the-badge) ![Stack](https://img.shields.io/badge/vite-c330f7?logo=vite&logoColor=white&style=for-the-badge) ![Stack](https://img.shields.io/badge/tailwindcss-blue?logo=tailwindcss&logoColor=white&style=for-the-badge) ![Stack](https://img.shields.io/badge/githubapi-black?logo=github&logoColor=white&style=for-the-badge) 
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
 
-- Configure the top-level `parserOptions` property like this:
+## 🚀 Instalação
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+Para realizar a instalação, primeiro, clone o repositório em sua máquina:
+
+### 📄 Clonando o repositório
+
+```sh
+git clone https://github.com/PauloHenriqueOliveiradeAlmeida/Portifolio.git
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+Acesse a pasta:
+
+```sh
+cd Portifolio
+```
+
+### 📦 Instalando pacotes
+
+Instale os pacotes necessários com NPM ou YARN
+
+```sh
+# para NPM
+npm install
+
+# para YARN
+yarn
+```
+
+Pronto! O projeto está pronto para ser testado!
+
+
+## 🏃 Testando
+
+Para testar execute o seguinte comando utilizando NPM ou YARN:
+
+
+```sh
+# para NPM
+npm run dev
+
+# para YARN
+yarn dev
+```
+
+Você também pode testar online, acessando o seguinte link:
+
+https://paulohenrique.vercel.app
