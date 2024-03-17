@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+	:root {
+		line-height: 1.5;
+		font-weight: 400;
+		text-rendering: optimizeLegibility;
+		-webkit-font-smoothing: antialiased;
+		-moz-osx-font-smoothing: grayscale;
+		font-family: "Josefin Sans", Arial, sans-serif;
+		scroll-behavior: smooth;
+	}
+
+	*[id] {
+		scroll-margin-top: 100px;
+	}
+
+}
+
+@layer utilities {
+	.divider-top {
+		clip-path: polygon(0 0, 100% 80px, 100% 100%, 0 100%);
+		margin-top: -80px;
+	}
+
+	.divider-bottom {
+		clip-path: polygon(0 0, 100% 0, 100% 100%, 0 calc(100% - 80px));
+	}
+	.scrollbar-hidden {
+		scrollbar-width: none;
+	}
+}
