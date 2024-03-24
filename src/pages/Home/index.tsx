@@ -56,13 +56,17 @@ function Home() {
 			</main>
 
 			<SectionText image="/euSou.webp" title="Eu sou...">
-				Sou Desenvolvedor Fullstack Júnior, estudante de Análise e Desenvolvimento de Sistemas e técnico em informática
+				Sou Desenvolvedor Fullstack Júnior com foco em Typescript, estudante de Análise e Desenvolvimento de Sistemas e técnico em informática
 				para internet.
+				Tenho 18 anos e resido atualmente em Sorocaba - SP, embora seja ainda bem jovem já possuo uma experiência considerável em desenvolvimento que conquistei por meio de 
+				freelances, trabalhos acadêmicos/voluntários e estágio,
+				tendo atuado em diversos projetos interessantes, como o PAM (software utilizado pelo Corpo de Bombeiros), Monstronautas (plataforma de educação gameficada) e 
+				Ümore (protótipo de plataforma de controle emocional), no momento sou estagiário no Instituto Edutech21, startup que desenvolve games em realidade virtual para o ensino matemático.
 			</SectionText>
 
 			<SectionText image="/objetivo.webp" title="O meu objetivo:" id="objetivos">
-				Meu principal objetivo é ter minha primeira oportunidade no mercado de trabalho, seja para estágio, trainee ou
-				júnior. Assim terei a chance de ter um bom desenvolvimento profissional além de adquirir experiência.
+				Meu principal objetivo atualmente é crescer na carreira para que possa aprender mais e entregar produtos cada vez melhores, por isso estou em busca de uma vaga como 
+				desenvolvedor júnior, entretanto, meu sonho profissional é criar meu próprio produto, algo que realmente possa facilitar a vida das pessoas, algo que tenha mais que apenas valor de mercado.
 			</SectionText>
 
 			<TimelineContainer title="Minha experiência" id="experiencia">
