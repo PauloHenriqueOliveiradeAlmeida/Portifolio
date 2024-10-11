@@ -38,7 +38,7 @@ function Home() {
 						<h1 className="bg-primary text-white text-4xl md:text-6xl">
 							<Typewriter
 								options={{
-									strings: ['Paulo.', 'Dev Fullstack JR.', 'Estudante de ADS.'],
+									strings: ['Paulo.', 'Dev Fullstack.', 'Estudante de ADS.', 'Futuro arquiteto de software.'],
 									autoStart: true,
 									loop: true,
 								}}
