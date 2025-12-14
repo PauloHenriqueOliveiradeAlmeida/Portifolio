@@ -2,7 +2,7 @@ import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import { faGlobe } from '@fortawesome/free-solid-svg-icons';
 import { Button } from '../Button';
 
-interface ProjectCardProps {
+export interface ProjectCardProps {
 	id: number;
 	name: string;
 	description: string;
@@ -17,7 +17,10 @@ export const ProjectCard = ({ id, name, description, topics, html_url, homepage 
 		<p className="mb-4 mt-8">{description}</p>
 		<div className="flex gap-1 overflow-x-scroll scroll snap-x scrollbar-hidden">
 			{topics.map((topic) => (
-				<span key={`${id}_${topic}`} className="bg-slate-700 shrink-0 py-1 px-3 rounded-2xl text-white snap-start">
+				<span
+					key={`topic-${id}_${topic}`}
+					className="bg-slate-700 shrink-0 py-1 px-3 rounded-2xl text-white snap-start"
+				>
 					{topic}
 				</span>
 			))}

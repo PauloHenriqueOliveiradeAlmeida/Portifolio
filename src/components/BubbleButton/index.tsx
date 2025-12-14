@@ -1,6 +1,12 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { IconDefinition } from '@fortawesome/fontawesome-svg-core';
 
-export const BubbleButton = ({ href, icon }: buttonProp) => {
+type BubbleButtonProps = {
+	href: string;
+	icon: IconDefinition;
+};
+
+export const BubbleButton = ({ href, icon }: BubbleButtonProps) => {
 	return (
 		<a
 			href={href}

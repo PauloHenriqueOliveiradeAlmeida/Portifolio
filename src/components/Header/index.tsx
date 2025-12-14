@@ -8,10 +8,7 @@ export const Header = () => {
 		return () => window.removeEventListener('scroll', handleScroll);
 	});
 
-	const handleScroll = () => {
-		setBackgroundColor(screen.height - window.scrollY <= 100 ? 'bg-black' : 'bg-white');
-	};
-
+	const handleScroll = () => setBackgroundColor(screen.height - window.scrollY <= 100 ? 'bg-black' : 'bg-white');
 	return (
 		<header
 			className={`flex justify-center sticky top-0 w-full py-4 z-10 transition ease-linear shadow ${backgroundColor}`}

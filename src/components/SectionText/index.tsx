@@ -5,12 +5,11 @@ interface SectionProp {
 	title: string;
 	id?: string;
 	children: React.ReactNode;
+	className?: string;
 }
 
-export const SectionText = ({ image, title, id, children }: SectionProp) => (
+export const SectionText = ({ image, title, id, children, className }: SectionProp) => (
 	<Section image={image} title={title} id={id}>
-		<div className='text-base md:text-2xl space-y-4'>
-			{children}
-		</div>
+		<div className={`text-base md:text-2xl space-y-4 ${className}`}>{children}</div>
 	</Section>
 );
